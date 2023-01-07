@@ -29,10 +29,20 @@ header{
     border: none;
 }
 .failur-sec{
+    width: 100%;
     display: flex;
     justify-content:space-between;
     align-items: center;
-    padding: 80px;
+    padding: 80px 0;
+}
+.failure-content{
+    width: 50%;
+}
+.failure-content ul li span i{
+   color: #16D887;
+}
+.failure-img{
+    width: 50%;
 }
 .failure-content h2{
     font-size: 40px;
@@ -49,6 +59,15 @@ header{
     padding: 20px 0;
 }
 
+.plans-section{
+    padding: 80px 0;
+}
+.plans-section h1{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px 0;
+}
+
 .plan{
     padding: 40px;
     text-align: center;
@@ -59,11 +78,111 @@ header{
 }
 .plan p{
     font-size: 20px;
-    color: #737272;
+    color: #e76d6d;
 
 }
 
 .plans{
     display: flex;
     justify-content: center;
+}
+
+.banner{
+    max-width: 1140px;
+    background-image: url(../images/watch.png);
+    padding: 50px 0;
+    background-size: cover;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    z-index: -999;
+
+}
+.banner-overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0.8;
+    z-index: -999;
+}
+.banner-content{
+    text-align: left;
+    z-index: 1000;
+    padding: 0 40px;
+}
+.banner-content h1{
+    font-size: 40px;
+    color: #fff;
+    text-align: left;
+}
+.banner-content button{
+    padding: 15px 20px;
+    color: #F15B22;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+}
+footer{
+    background-color: #151414;
+}
+
+.footer-container{
+    display: flex;
+    width: 100%;
+} 
+.footer-container .future{
+    width: 60%;
+    padding: 40px;
+}
+.future h1{
+    font-size: 45px;
+    color: #FFFFFF;
+}
+.future p{
+    font-size:18px;
+    color: #FFFFFF;
+    padding: 15px 0;
+}
+.footer-container .subscribe{
+    width: 40%;
+    padding: 40px;
+
+}
+.future ul{
+    display: flex;
+}
+.future ul li{
+    list-style: none;
+    margin: 5px;
+}
+
+.subs-form{
+    padding: 40px 0;
+}
+
+.subscribe h3{
+    font-size: 25px;
+    color: #FFFFFF;
+}
+.subscribe input{
+    padding: 15px 20px;
+    color: #262626;
+    border: 1px solid #FFFFFF;
+    margin: 10px 0;
+}
+.subscribe input::placeholder{
+    font-weight: 500;
+}
+.subscribe button{
+    padding: 15px 20px;
+    background: #F15B22;
+    color: #FFFFFF;
+    border: 1px solid #F15B22;
+    font-weight: 500;
+}
+input:focus {
+    border: 1px solid #FFFFFF;
+    outline: none;
 }
