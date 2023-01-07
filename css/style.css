@@ -89,23 +89,24 @@ header{
 
 .banner{
     max-width: 1140px;
-    background-image: url(../images/watch.png);
+    background: linear-gradient(90deg,rgba(209, 73, 10, 0.928), rgba(244, 244, 244, 0.055)),url(../images/watch.png);
+  
     padding: 50px 0;
     background-size: cover;
     margin: auto;
     position: relative;
     overflow: hidden;
-    z-index: -999;
+    /* z-index: -999; */
 
 }
-.banner-overlay{
+/* .banner-overlay{
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
     opacity: 0.8;
     z-index: -999;
-}
+} */
 .banner-content{
     text-align: left;
     z-index: 1000;
