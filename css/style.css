@@ -28,3 +28,42 @@ header{
     color: #FFFFFF;
     border: none;
 }
+.failur-sec{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 80px;
+}
+.failure-content h2{
+    font-size: 40px;
+    padding: 40px 0 0 0;
+
+}
+.failure-content p{
+    font-size: 20px;
+    padding: 40px 0;
+}
+.failure-content ul  li{
+    font-size: 20px;
+    list-style: none;
+    padding: 20px 0;
+}
+
+.plan{
+    padding: 40px;
+    text-align: center;
+}
+.plan h3{
+    font-size: 30px;
+    padding: 15px 0;
+}
+.plan p{
+    font-size: 20px;
+    color: #737272;
+
+}
+
+.plans{
+    display: flex;
+    justify-content: center;
+}
